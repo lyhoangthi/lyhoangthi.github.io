@@ -1,0 +1,161 @@
+main {
+    color: rgb(26, 25, 46);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+}
+
+#subtitle{
+    font-weight: 500;
+    font-size: 700;
+}
+
+h1{
+    font-family:'Encode Sans Expanded', sans-serif ;
+    font-weight: 600;
+    font-size: 700;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    padding: 12px 0px;
+    margin-top:5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button {
+    background-color:black;
+    color: #fff;
+    border:none; 
+    border-radius:12px;
+    padding:20px 30px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+.artist-txt{
+    font-family:'Encode Sans Expanded', sans-serif;
+    font-size: 120px;
+    font-weight:900;
+    padding: 0;
+    margin: 0;
+    color:black;
+}
+
+.artist-img{
+    position: absolute;
+    top:15%;
+    left:50%;
+    z-index: -1;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding:0;
+    margin:0;
+}
+
+.description{
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+.text{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    padding-top: 40%;
+    margin-top: 5%;
+}
+
+.card-img{
+    border-radius: 8px;
+
+}
+
+#container {
+    max-width: 220px;
+    margin: 7vh 2vh 18vh 2vh;
+    font-family: Montserrat, sans-serif;
+    text-align: center ;
+    align-items: center;
+  }
+
+  .card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+    transition: box-shadow .3s;
+  }
+  
+
+  .tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+  }
+
+  .card__details {
+    padding: 16px 8px 8px 8px;
+  }
+
+  .flex-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.suggestion{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+
+.fixed{
+    position: fixed;
+    bottom: 8%;
+    right: 3%;
+}
+
+button:hover{
+    background-color: red;
+    transition: .7;
+}
+
+#newjeans{
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color:#788697;
+}
